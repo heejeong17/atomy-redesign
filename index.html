@@ -8,10 +8,18 @@
     <script src="./js/jquery-3.6.0.min.js"></script>
 
     <!--글꼴-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <!--글꼴-->
+
+    <!--스와이퍼-->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--스와이퍼-->
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
@@ -23,13 +31,75 @@
                 <ul class="menu-bar">
                     <li><a href="#">애터미 몰</a></li>
                     <li><a href="#">브랜드 소개</a></li>
-                    <li><a href="#"><img src="./img/애터미 로고_하얀색.png" alt=""></a></li>
+                    <li><a href="#">
+                        <img src="./img/애터미 로고_하얀색.png" alt="">
+                    </a></li>
                     <li><a href="#">공지사항</a></li>
                     <li><a href="#">마이페이지</a></li>
                 </ul>
             </div>
             <div class="main-img">
             </div>
+        </div>
+        <div class="best-product-section">
+            <div class="content01">
+                <div class="txt01"><h2>BEST PRODUCT</h2></div>
+                <div class="txt02">
+                애터미에서 사랑받는 제품들, 
+                <br>절대품질 절대가격의 전략으로 좋은 품질의 제품들을 지금 만나보세요.
+                </div>
+            </div>
+            <div class="best-product-wrap">
+                <ul>
+                    <li>
+                        <a href="#"><img src="./img/아크네클리어스팟솔루션_수정.png" alt=""></a>
+                        <a href="#">
+                            <div class="txt01">아크네 클리어 스팟 솔루션</div>
+                            <div class="txt02">16,800원</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/세럼_수정.png" alt=""></a>
+                        <a href="#">
+                            <div class="txt01">아크네 클리어 세럼</div>
+                            <div class="txt02">20,000원</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/아크네클리어토너_수정.png" alt=""></a>
+                        <a href="#">
+                            <div class="txt01">아크네 클리어 토너</div>
+                            <div class="txt02">19,000원</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/아크네클리어폼클렌저_수정.png" alt=""></a>
+                        <a href="#">
+                            <div class="txt01">아크네 클리어 폼클렌저</div>
+                            <div class="txt02">13,800원</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide-banner">
+            <!-- 슬라이더 메인 컨테이너 -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- 슬라이드 -->
+                  <div class="swiper-slide slide-1">Slide 1</div>
+                  <div class="swiper-slide slide-2">Slide 2</div>
+                </div>
+                <!-- 슬라이드 페이지 -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- 화살표 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- 스크롤바 -->
+                <div class="swiper-scrollbar"></div>
+              </div>
         </div>
     </div>
 
