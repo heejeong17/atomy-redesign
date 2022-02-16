@@ -321,12 +321,12 @@
 }
 .wrap > .event-section > .content01{
     background-color: cadetblue;
-    background-image: url(../img/석세스01_수정.png);
+    background-image: url(../img/event01.png);
     background-size: cover ;
     background-repeat: no-repeat ;
 }
 .wrap > .event-section > .content02{
-    background-image: url(../img/석세스02_수정.png);
+    background-image: url(../img/event02.png);
     background-size: cover ;
     background-repeat: no-repeat ;
 }
@@ -368,7 +368,7 @@
 .wrap > .footer > .logo{
     width: 112px ;
     height: 40px ;
-    background-image: url(../img/애터미\ 로고.png);
+    background-image: url(../img/footer-logo.png);
     background-size: cover ;
     background-repeat: no-repeat ;
     margin: auto ;
