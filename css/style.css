@@ -476,6 +476,7 @@
     margin-top: 103px ;
     border-top: 1px solid black;
     border-bottom: 0.5px solid #C4C4C4 ;
+    position: relative;
 }
 
 .sub-wrap > .menu-wrap > .menu01 > li{
@@ -487,9 +488,18 @@
 .sub-wrap > .menu-wrap > .menu01 > li > .menu02{
     height: 40px ;
     border-bottom: 0.5px solid #C4C4C4 ;
+    display: none ;
+    position: absolute ;
+    top: 100% ;
+    left: 0 ;
+    width: 100% ;
+}
+.sub-wrap > .menu-wrap > .menu01 > li > .menu02.active{
+    display: flex ;
 }
 .sub-wrap > .menu-wrap > .menu01 > li > .menu02 > li{   
     font-size: 14px ;
+    flex: 1 ;
 }
 .sub-wrap > .menu-wrap > .menu01 > li > .menu02:first-child > li{
    display: none ;

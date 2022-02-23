@@ -17,4 +17,11 @@ $(document).ready(function(){
   });
 
   AOS.init();
+
+  $(".menu01 > li").click(function(){
+    let indexnumber = $(this).index();
+    // alert(indexnumber);
+    $(".menu02").removeClass("active");
+    $(".menu02").eq(indexnumber).addClass("active");
+  });
 });
