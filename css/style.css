@@ -319,10 +319,10 @@
     height: 926px ;
     margin: auto ;
     display: flex ;
-    
 }
 .wrap > .event-section > div{
     position: relative ;
+    overflow: hidden ;
 }
 .wrap > .event-section > div{
     flex: 1 ;
@@ -349,12 +349,14 @@
     height: 100% ;
     background-color: rgba(0, 0, 0, 0.3) ;
     position: absolute ;
-    top: 0 ;
+    top: 100% ;
     left: 0 ;
     opacity: 0 ;
-    transition: 0.5s ;
+    transition: all, 0.35s ;
+    
 }
 .wrap > .event-section > div:hover .hover-box{
+    top: 0 ;
     opacity: 1 ;
 }
 .wrap > .event-section .hover-box p{
@@ -441,7 +443,7 @@
 .sub-wrap > .gnb-wrap > .language-btn > li:hover > a{
     color: #C4C4C4 ;
 }
-.sub-wrap > .gnb-wrap > .logo{
+.sub-wrap > .gnb-wrap > .logo > a > .img-logo{
     width: 112px ;
     height: 50px ;
     background-image: url(../img/footer-logo.png);
@@ -454,7 +456,7 @@
 .sub-wrap > .gnb-wrap > .log-in{
     display: flex ;
     padding-top: 18px ;
-    margin-left: 290px ;
+    margin-left: 330px ;
 }
 .sub-wrap > .gnb-wrap > .log-in > li{
     text-align: center;
@@ -536,14 +538,18 @@
     flex: 1 ;
 }
 .sub-wrap > .product-list-wrap > .products-list > ul > li{
-    width: 278px ;
+    width: 280px ;
     height: 370px ;
+    box-sizing: border-box ;
+    margin-right: 25px ;
+    margin-top: 20px ;
 }
 .sub-wrap > .product-list-wrap > .products-list > ul > li:hover{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);}
 
 .sub-wrap > .product-list-wrap > .products-list > ul > li:last-child{
-    margin: 0px 0px 20px 0;
+    margin-bottom: 20px ;
+    margin-right: 0px ;
 }
 .sub-wrap > .product-list-wrap > .products-list > ul > li > a > .img{
     width: 238px;
@@ -617,8 +623,10 @@
 }
 .sub-wrap > .numbers > ul > li{
     text-align: center ;
+    cursor: pointer;
 }
 .sub-wrap > .footer{
+    margin: auto ;
     width: 100% ;
     height: 286px ;
     background-color: #272C2F ;
@@ -627,7 +635,7 @@
 }
 .sub-wrap > .footer > .logo{
     width: 112px ;
-    height: 40px ;
+    height: 49px ;
     background-image: url(../img/footer-logo.png);
     background-size: cover ;
     background-repeat: no-repeat ;
