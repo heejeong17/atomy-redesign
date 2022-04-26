@@ -61,6 +61,9 @@
     width: 78px ;
     margin-top: 27px ;
 }
+.wrap > .intro-bg{
+    position: relative;
+}
 .wrap > .intro-bg > .main-img{
     width: 750px ;
     height: 750px ;
@@ -68,8 +71,10 @@
     border-radius: 50% ;
     margin: 0 auto ;
     position: relative ;
-
-
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
 }
 .wrap > .intro-bg > .main-img > img{
     width: 100% ;
